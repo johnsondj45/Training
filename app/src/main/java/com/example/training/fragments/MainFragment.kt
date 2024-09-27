@@ -14,11 +14,13 @@ class MainFragment : Fragment(R.layout.main_layout) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding = MainLayoutBinding.bind(view).apply{
+        binding = MainLayoutBinding.bind(view).apply {
             textView.text = viewModel.kiki.name
             button.setOnClickListener {
-                textView.text = if(textView.text == viewModel.kiki.name){viewModel.meatbol.name}
-                else {viewModel.kiki.name}
+                textView.text = when (textView.text) {
+                    viewModel.kiki.name -> viewModel.meatbol.name
+                    else -> viewModel.kiki.name
+                }
             }
         }
     }
