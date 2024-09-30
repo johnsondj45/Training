@@ -14,14 +14,9 @@ class MainFragment : Fragment(R.layout.main_layout) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val toast = Toast.makeText(requireActivity(), "Button Clicked", Toast.LENGTH_SHORT)
-        binding = MainLayoutBinding.bind(view).apply {
-            button.setOnClickListener {
-                toast.show()
-                textView.text = viewModel.getNames(textView.text.toString())
-            }
-        }
 
     }
 }
+
+
 
