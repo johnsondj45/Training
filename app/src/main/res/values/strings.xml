@@ -4,7 +4,9 @@
     <string name="last_name">Last Name</string>
     <string name="email">E-Mail</string>
     <string name="password">Password</string>
-    <string name="sign_up">Sign-Up Form 🐱</string>"
-    <string name="submit">Submit</string>"
+    <string name="sign_up">Sign-Up Form 🐱</string>
+    <string name="submit">Submit</string>
+    <string name="bio_header">Bio:</string>
+    <string name="example_bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non urna posuere, posuere nisl at, sollicitudin dolor. Phasellus varius enim ut lectus semper, aliquet sollicitudin orci blandit. Fusce pharetra mauris neque, non porta urna suscipit non. In posuere ornare interdum. Aliquam nibh risus, auctor eu vulputate eu, semper a libero. Nam a orci turpis. Vestibulum eu neque ultricies, bibendum dui eu, sollicitudin risus. Praesent id maximus lectus. Aliquam posuere fringilla ipsum vitae molestie. Nunc commodo metus nec rutrum consectetur. Mauris eget nulla pretium, faucibus lacus ut, aliquam ipsum. Integer vel nibh sed ipsum viverra ultrices at quis enim.</string>
 
 </resources>
